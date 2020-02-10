@@ -48,7 +48,6 @@ validate('jump', $jump) if $mode =~ /^(5|7)$/;
 validate('shellcode', $shellcode) if $mode == 7;
 
 switch($mode) {
-
   ## Fuzzing mode. After attaching debugger, note max bytes printed out on exception.
   case 1 {
     my $buffer;
