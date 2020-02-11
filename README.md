@@ -1,6 +1,6 @@
 # BuffMate
 
-BuffMate is a Perl utility that assists in the process of creating buffer overflow exploits. The entire process from fuzzing to exploitation is streamlined into one tool. Only core Perl modules are utilized for mobility and speed.
+BuffMate is a Perl utility that assists in the process of creating simple buffer overflow exploits. The entire process from fuzzing to exploitation is streamlined into one tool. Only core Perl modules are utilized for mobility and speed. This tool is a work in progress and will certainly need to be modified depending on the exploit.
 
 Note that certain offensive dependencies are required, such as metasploit-framework and msfvenom. It is recommended that you run this tool on a Kali system which includes these tools.
 
