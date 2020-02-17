@@ -5,7 +5,7 @@ Note: This tool is a work in progress, as I learn more about buffer overflows. B
 * Overflow is triggered by an optional string/command, followed by a buffer of "A"s.
 * 400+ bytes is available for shellcode after the EIP address is overwritten (the "C" part of the buffer).
 * Testing for bad characters can be performed in the "C" part of the buffer.
-* The application consistently crashes when the "C" buffer length is changed.
+* The application crashes predictably when the "C" buffer length is changed.
 
 BuffMate is a Perl utility that assists in the process of creating simple buffer overflow exploits. The entire process from fuzzing to exploitation is streamlined into one tool. Only core Perl modules are utilized for mobility and speed.
 
