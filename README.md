@@ -1,6 +1,6 @@
 # BuffMate
 
-Note: This tool is a work in progress, as I learn more about buffer overflows. Buffmate currently only works as an all-in-one solution with certain buffer overflows, matching the following conditions:
+Note: This tool is really just a random project, created as I learned more about buffer overflows. Buffmate currently only works as an all-in-one solution with certain buffer overflows, matching the following conditions:
 
 * Overflow is triggered by an optional string/command, followed by a buffer of "A"s.
 * 400+ bytes is available for shellcode after the EIP address is overwritten (the "C" part of the buffer).
